@@ -20,10 +20,10 @@ php artisan key:generate
 # 5. Link storage
 php artisan storage:link
 
-# 6. Run migrations
-php artisan migrate
+# 6. Import table SQL (the test table) in folder sql
 
-# 7. Import table SQL (the test table) in folder sql
+# 7. Run migrations
+php artisan migrate
 
 ## 📦 Runnning Project
 Follow these steps to get the project up and running:
