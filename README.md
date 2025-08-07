@@ -14,7 +14,7 @@ composer install
 npm install
 
 # 4. Create .env file and set up your DB credentials
-cp .env.example .env
+cp .env.example .env (linux/mac os) or copy .env.example .env (windows)
 php artisan key:generate
 
 # 5. Link storage
