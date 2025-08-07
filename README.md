@@ -25,6 +25,9 @@ php artisan storage:link
 # 7. Run migrations
 php artisan migrate
 
+# 8. Run Seeder
+php artisan db:seed
+
 ## 📦 Runnning Project
 Follow these steps to get the project up and running:
 
@@ -35,3 +38,7 @@ php artisan serve
 npm run dev
 
 # for the example import file is on folder 'test_import_example_file'
+
+# Example user that can be used
+# email : admin@argon.com
+# password: secret
